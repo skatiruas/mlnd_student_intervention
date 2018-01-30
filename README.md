@@ -1,6 +1,23 @@
 # Machine Learning Engineer Nanodegree
 # Supervised Learning
 ## Project: Building a Student Intervention System
+**Tiago Ruas da Gama Cerqueira**
+
+### Keeping Versions according to Udacity Project
+To avoid updating the code in various places as mentioned in Install section I'm using pipenv
+locking needed versions like 0.17.1 scikit-learn. To use it with jupyter notebook:
+```bash
+# Generates the current Pipfile
+# pipenv install scikit-learn==0.17.1 pandas numpy jupyter ipykernel
+
+pipenv shell
+```
+
+```bash
+#Inside shell
+python -m ipykernel install --user --name=my-virtualenv-name-given-on-shell
+jupyter notebook
+```
 
 ### Install
 
@@ -24,7 +41,7 @@ In a terminal or command window, navigate to the top-level project directory `st
 
 ```bash
 ipython notebook student_intervention.ipynb
-```  
+```
 or
 ```bash
 jupyter notebook student_intervention.ipynb
